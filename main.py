@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 hand_detector = mp.solutions.hands.Hands()
 drawing_utils = mp.solutions.drawing_utils
 screen_width, screen_height = pyautogui.size()
-index_y = 0
+index_y = 1
 
 while True:
     _, frame = cap.read()
